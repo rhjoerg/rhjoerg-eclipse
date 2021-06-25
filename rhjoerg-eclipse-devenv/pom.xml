@@ -5,9 +5,16 @@
 		
 	<modelVersion>4.0.0</modelVersion>
 	
-	<groupId>ch.rhjoerg.eclipse</groupId>
+	<parent>
+		<groupId>ch.rhjoerg.eclipse</groupId>
+		<artifactId>rhjoerg-eclipse</artifactId>
+		<version>0.0.0-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+	
 	<artifactId>rhjoerg-eclipse-devenv</artifactId>
-	<version>0.0.0-SNAPSHOT</version>
+	
+	<packaging>eclipse-plugin</packaging>
 	
 	<build>
 		<plugins>
